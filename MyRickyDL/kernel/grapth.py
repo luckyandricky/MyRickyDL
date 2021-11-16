@@ -1,9 +1,9 @@
-class grapth:
+class CalculateGrapth:
     def __init__(self):
         self.nodes = []
         self.name_scope = None
 
-    def add_node(self,node):
+    def add_node(self, node):
         self.nodes.append(node)
 
     def clear_jacobi(self):
@@ -20,5 +20,9 @@ class grapth:
         return len(self.nodes)
 
     def draw(self):
-        try:
-            import network
+        #  try:
+        #   import network
+        a = 5
+
+
+def_cal = CalculateGrapth()
