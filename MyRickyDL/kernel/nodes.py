@@ -1,3 +1,5 @@
+from abc import ABC
+
 import numpy as np
 import abc
 from grapth import CalculateGrapth, def_cal
@@ -75,22 +77,16 @@ class Node(object):
         self.jacobiMatrix = None
 
 
+class Variable(Node):
+    def __init__(self, dim, init=False, trainable=True, **kargs):
+        Node.__init__(self, **kargs)
+        self.dim = dim
+        if init:
+            self.value = np.mat(np.random.normal(0, 0.001, self.dim))
 
+        self.trainable = trainable
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    def set_value(self, value):
+        assert isinstance(value, np.matrix) and value.shape == self.dim
+        self.reset_value()
+        self.value = value
