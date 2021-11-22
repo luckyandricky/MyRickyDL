@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35e54ee0-2d0e-4ffb-b926-fa30319a40ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MyRickyDL/写代码时遇到的一些python特性.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyRickyDL/operate/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyRickyDL/operate/operate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRickyDL/kernel/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyRickyDL/kernel/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRickyDL/rickydl.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyRickyDL/rickydl.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637038963945</updated>
       <workItem from="1637038976176" duration="6960000" />
-      <workItem from="1637567667708" duration="3118000" />
+      <workItem from="1637567667708" duration="5546000" />
     </task>
     <servers />
   </component>
