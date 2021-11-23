@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35e54ee0-2d0e-4ffb-b926-fa30319a40ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MyRickyDL/operate/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyRickyDL/operate/operate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyRickyDL/kernel/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyRickyDL/kernel/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyRickyDL/rickydl.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyRickyDL/rickydl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRickyDL/operate/operate.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyRickyDL/operate/operate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRickyDL/写代码时遇到的一些python特性.md" beforeDir="false" afterPath="$PROJECT_DIR$/MyRickyDL/写代码时遇到的一些python特性.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +20,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="20zELkf5SPXZoJL6idRPUckELsx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -59,6 +65,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyRickyDL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyRickyDL" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyRickyDL/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,7 +102,8 @@
       <option name="presentableId" value="Default" />
       <updated>1637038963945</updated>
       <workItem from="1637038976176" duration="6960000" />
-      <workItem from="1637567667708" duration="5546000" />
+      <workItem from="1637567667708" duration="7980000" />
+      <workItem from="1637649870840" duration="1062000" />
     </task>
     <servers />
   </component>
@@ -86,5 +120,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

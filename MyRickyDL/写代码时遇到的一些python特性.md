@@ -36,3 +36,9 @@ def get_jacobi(self, parent):
     """abstract function"""
 ```
 
+## assert断言
+
+在表达式条件为false的时候触发异常。
+
+![img](https://www.runoob.com/wp-content/uploads/2019/07/assert.png)
+
