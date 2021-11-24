@@ -113,4 +113,3 @@ class Adam(Optimizer):
 
                 node.set_value(node.value - self.learning_rate * self.v[node] / np.sqrt(self.s[node] + 1e-10))
 
-                
