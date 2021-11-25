@@ -52,3 +52,19 @@ class MatMul(Operator):
             col_sort = np.arange(parent.dim()).reshape(parent.shape()[::-1]).T.ravel()
             return jacobi[row_sort, :][:, col_sort]
 
+
+class Softmax(Operator):
+
+    @staticmethod
+    def softmax(a):
+        # 防止指数过大
+        a[a > 1e2] = 1e2
+        ep = np.power(np.e, a)
+        return ep / np.sum(ep)
+
+    def compute(self):
+        self.value = Softmax.softmax(self.parents[0].value)
+
+    def get_jacobi(self, parent):
+        raise NotImplementedError("Don`t use softmax`s get_jacobi")
+

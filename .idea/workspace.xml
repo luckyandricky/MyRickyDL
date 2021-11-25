@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35e54ee0-2d0e-4ffb-b926-fa30319a40ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MyRickyDL/operate/loss.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyRickyDL/operate/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyRickyDL/operate/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyRickyDL/optimizer/optimizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyRickyDL/optimizer/optimizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyRickyDL/rickydl.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyRickyDL/rickydl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyRickyDL/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyRickyDL/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRickyDL/operate/operate.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyRickyDL/operate/operate.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../桌面/工作/pro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vega" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -107,6 +106,8 @@
       <workItem from="1637567667708" duration="7980000" />
       <workItem from="1637649870840" duration="9925000" />
       <workItem from="1637678592415" duration="410000" />
+      <workItem from="1637726345428" duration="26000" />
+      <workItem from="1637850046143" duration="603000" />
     </task>
     <servers />
   </component>
