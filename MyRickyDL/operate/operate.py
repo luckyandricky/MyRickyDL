@@ -68,3 +68,13 @@ class Softmax(Operator):
     def get_jacobi(self, parent):
         raise NotImplementedError("Don`t use softmax`s get_jacobi")
 
+
+class Step(Operator):
+
+    def compute(self):
+        self.value = np.mat(np.where(self.parents[0].value >= 0.0, 1.0, 0.0))
+
+    def get_jacobi(self, parent):
+        np.mat(np.eye(self.dim()))
+        return np.zeros(np.where(self.parents[0].value.A1 >= 0.0, 0.0, -1.0))
+

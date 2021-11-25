@@ -42,3 +42,5 @@ def get_jacobi(self, parent):
 
 ![img](https://www.runoob.com/wp-content/uploads/2019/07/assert.png)
 
+## numpy常用操作
+

@@ -39,4 +39,5 @@ labels = ri.kernel.Variable(dim=(1,1), init=False, trainable=False)
 w = ri.kernel.Variable(dim=(1,3), init=True, trainable=True)
 b = ri.kernel.Variable(dim=(1,3), init=True, trainable=True)
 
-output = ri.operate.Add()
+output = ri.operate.Add(ri.operate.MatMul(w, x), b)
+predict = ri.operate.Step()
