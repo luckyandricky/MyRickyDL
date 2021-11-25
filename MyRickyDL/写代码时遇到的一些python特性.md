@@ -44,3 +44,22 @@ def get_jacobi(self, parent):
 
 ## numpy常用操作
 
+
+
+```python
+np.mat()和np.array()
+# mat可以从字符串或列表中生成；array只能从列表中生成
+# array生成数组，用np.dot()表示矩阵乘积，（*）号或np.multiply()表示点乘
+# mat生成数组，（*）和np.dot()相同，点乘只能用np.multiply()
+
+np.zeros()
+# 零数组
+
+np.where(condition, x, y)
+# 满足条件(condition)，输出x，不满足输出y。
+
+numpy.eye(R，C = None，k = 0，dtype = type)
+# 返回对角线为1且其他位置为0的矩阵。 k。
+
+```
+
