@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35e54ee0-2d0e-4ffb-b926-fa30319a40ce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/MyRickyDL/写代码时遇到的一些python特性.md" beforeDir="false" afterPath="$PROJECT_DIR$/MyRickyDL/写代码时遇到的一些python特性.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRickyDL/rickydl.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyRickyDL/rickydl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRickyDL/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyRickyDL/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +69,6 @@
       <module name="MyRickyDL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyRickyDL" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -104,7 +103,7 @@
       <workItem from="1637649870840" duration="9925000" />
       <workItem from="1637678592415" duration="410000" />
       <workItem from="1637726345428" duration="26000" />
-      <workItem from="1637850046143" duration="1354000" />
+      <workItem from="1637850046143" duration="2018000" />
     </task>
     <servers />
   </component>

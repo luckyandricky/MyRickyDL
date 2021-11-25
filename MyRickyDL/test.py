@@ -40,4 +40,46 @@ w = ri.kernel.Variable(dim=(1,3), init=True, trainable=True)
 b = ri.kernel.Variable(dim=(1,3), init=True, trainable=True)
 
 output = ri.operate.Add(ri.operate.MatMul(w, x), b)
-predict = ri.operate.Step()
+predict = ri.operate.Step(output)
+# 损失函数
+loss = ri.operate.loss.PerceptionLoss(ri.operate.MatMul(labels, output))
+learning_rate = 0.0001
+
+for epoch in range(50):
+
+    for i in range(len(train_set)):
+
+        features = np.mat(train_set[i, :-1]).T
+        l = np.mat(train_set[i, -1]).T
+
+        x.set_value(features)
+        labels.set_value(l)
+
+        loss.forward()
+
+        w.backward(loss)
+
+        b.backward(loss)
+        w.set_value(w.value - learning_rate * w.jacobiMatrix.T.reshape(w.shape()))
+        b.set_value(b.value - learning_rate * b.jacobiMatrix.T.reshape(b.shape()))
+        ri.default_cal.clear_jacobi()
+
+    pred = []
+
+    for i in range(len(train_set)):
+
+        features = np.mat(train_set[i, :-1]).T
+        x.set_value(features)
+
+        # 在模型的predict节点上执行前向传播
+        predict.forward()
+        pred.append(predict.value[0, 0])  # 模型的预测结果：1男，0女
+
+    pred = np.array(pred) * 2 - 1  # 将1/0结果转化成1/-1结果，好与训练标签的约定一致
+
+    # 判断预测结果与样本标签相同的数量与训练集总数量之比，即模型预测的正确率
+    accuracy = (train_set[:, -1] == pred).astype(np.int).sum() / len(train_set)
+
+    # 打印当前epoch数和模型在训练集上的正确率
+    print("epoch: {:d}, accuracy: {:.3f}".format(epoch + 1, accuracy))
+
