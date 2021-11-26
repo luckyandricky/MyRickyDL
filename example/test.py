@@ -6,7 +6,10 @@ import numpy as np
 # print(c)
 
 # 用计算图搭建ADALINE并进行训练
-import rickydl as ri
+import sys
+sys.path.append('../')
+
+import MyRickyDL as ri
 
 """
 制造并训练样本，根据均值为171，标准差为6 的正态分布采样500个男性身高， 并根据均值158，标准差为5的 正态分布采样500个女性身高

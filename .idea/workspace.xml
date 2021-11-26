@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="35e54ee0-2d0e-4ffb-b926-fa30319a40ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRickyDL/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyRickyDL/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRickyDL/kernel/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyRickyDL/kernel/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRickyDL/kernel/nodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyRickyDL/kernel/nodes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRickyDL/operate/operate.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyRickyDL/operate/operate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyRickyDL/rickydl.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyRickyDL/rickydl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyRickyDL/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyRickyDL/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyRickyDL/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +43,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vega" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MatrixSlow" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\github拉取\MyRickyDL\example" />
+      <recent name="E:\github拉取\MyRickyDL" />
+      <recent name="E:\github拉取\MyRickyDL\MyRickyDL" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test (1)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="MyRickyDL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,6 +76,44 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="rickydl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyRickyDL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyRickyDL" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyRickyDL/rickydl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyRickyDL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyRickyDL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,7 +124,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyRickyDL/test.py" />
+      <option name="SCRIPT_NAME" value="E:\github拉取\MyRickyDL\example\test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyRickyDL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyRickyDL" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\github拉取\MyRickyDL\example\test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,6 +154,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.rickydl" />
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -103,7 +174,8 @@
       <workItem from="1637649870840" duration="9925000" />
       <workItem from="1637678592415" duration="410000" />
       <workItem from="1637726345428" duration="26000" />
-      <workItem from="1637850046143" duration="2018000" />
+      <workItem from="1637850046143" duration="2252000" />
+      <workItem from="1637889423831" duration="3442000" />
     </task>
     <servers />
   </component>

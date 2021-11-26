@@ -1,6 +1,7 @@
-# from . import optimizer
+
 from . import kernel
 from . import operate
+from . import optimizer
 
 default_cal = kernel.def_cal
 get_node_from_graph = kernel.get_node_from_graph

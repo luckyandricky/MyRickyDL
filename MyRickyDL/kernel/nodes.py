@@ -2,16 +2,16 @@ from abc import ABC
 
 import numpy as np
 import abc
-from grapth import CalculateGrapth, def_cal
+from .grapth import CalculateGrapth, def_cal
 
 
 class Node(object):
-    def __init__(self, *parents, **kargs):
+    def __init__(self, *parents, **ka):
         # 加了星号（ ** ）的变量名会存放所有未命名的变量参数
         # 加了星号（ * ）的变量名会存放所有未命名的变量参数，不能存放dict，否则报错。
-        self.kargs = kargs
-        self.grapth = kargs.get('grapth', def_cal)
-        self.gen_node_name(**kargs)
+        self.kargs = ka
+        self.grapth = ka.get('grapth', def_cal)
+        self.gen_node_name(**ka)
         self.parents = list(parents)
         self.child = []
         self.value = None
@@ -78,8 +78,8 @@ class Node(object):
 
 
 class Variable(Node):
-    def __init__(self, dim, init=False, trainable=True, **kargs):
-        Node.__init__(self, **kargs)
+    def __init__(self, dim, init=False, trainable=True, **ka):
+        Node.__init__(self, **ka)
         self.dim = dim
         if init:
             self.value = np.mat(np.random.normal(0, 0.001, self.dim))

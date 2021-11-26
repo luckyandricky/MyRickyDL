@@ -1,6 +1,7 @@
 from abc import ABC
 
 from ..kernel import Node
+
 import numpy as np
 
 
